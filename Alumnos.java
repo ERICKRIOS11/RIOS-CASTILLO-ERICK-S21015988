@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class Alumnos{
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
@@ -8,9 +6,9 @@ class Alumnos{
 
 		System.out.println("======¡Hola Maestro!======");
 		System.out.print("Ingrese la cantidad de hombres que hay en el grupo: ");
-		hombres=sc.nextInt();
+		hombres=sc.nextDouble();
 		System.out.print("Ingrese la cantidad de mujeres que hay en el grupo: ");	
-		mujeres=sc.nextInt();
+		mujeres=sc.nextDouble();
 		
 		total=hombres+mujeres;
 		porhom=(hombres/total)*100;
