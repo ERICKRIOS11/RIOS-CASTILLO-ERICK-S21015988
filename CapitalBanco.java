@@ -14,12 +14,13 @@ class CapitalBanco{
 		System.out.println("=====Resumen de su inversion====");
 		System.out.printf("Capital invertido $%.2f%n ", cap);
 		System.out.printf("Interés ganado (2%%): $%.2f%n", dingan);
-        	System.out.println("---------------------------------");
-        	System.out.printf("Dinero total en el banco: $%.2f%n", capf);
+        System.out.println("---------------------------------");
+        System.out.printf("Dinero total en el banco: $%.2f%n", capf);
 
        
-        	sc.close();
+        sc.close();
 
 
 	}
+
 }
